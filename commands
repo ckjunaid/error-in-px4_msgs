@@ -1,0 +1,11 @@
+check the enviorment -printenv | grep ROS
+ros version   - printenv | grep ROS
+to install ros-humble
+      wget -c https://raw.githubusercontent.com/runtimerobotics/ros2_oneline_install/main/ros2_install_humble.sh && chmod +x ./ros2_install_humble.sh && ./ros2_install_humble.sh
+      
+           ros 2 ws build error
+           
+           pip3 uninstall -y empy
+            pip3 cache purge
+             pip3 install --user empy==3.3.4
+              pip3 install --user setuptools==58.0.4
